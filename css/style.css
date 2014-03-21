@@ -1,0 +1,210 @@
+@font-face {
+	font-family: "coneria";
+	src: url('../fonts/coneria_script/ConeriaScript.ttf') format('truetype')
+}
+.marketing.marketing-kr{
+	text-align:center;
+}
+.col-center-kr{
+	margin: 0px auto;
+}
+.divider-theme-kr img{
+	width: 75px;
+	position: relative;
+	top: -110px;
+}
+.divider-theme-box-kr hr.featurette-divider{
+	margin: 40px 0px 0px 0px;
+}
+.divider-theme-box-kr i{
+	font-size: 16pt;
+	color: antiquewhite;
+	position: relative;
+	top: -10px;
+	background: white;
+	padding: 0px 20px;
+}
+/* Text box heading and inner style */
+.love-box-kr{
+	display: block;
+	width: 75%;
+	padding: 3%;
+	-webkit-box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75);
+	margin-top: 20px;
+}
+.love-box-no-shadow{
+	display: block;
+}
+.love-box-kr p, .intros-kr p{
+	font-family: Times;
+	font-size: 12pt;
+}
+.intros-kr em{
+	font-family: Times;
+}
+.wedding, .navbar-default .navbar-brand-kr.wedding{
+	font-family: "coneria";
+	color:#359;
+	text-shadow:
+   -1px -1px 0 antiquewhite,  
+    1px -1px 0 antiquewhite,
+    -1px 1px 0 antiquewhite,
+     1px 1px 0 antiquewhite;
+}
+h4.wedding-topic{
+	font-family: "coneria";
+	color: black;
+	font-size:32px;
+	margin-top: 20px;
+}
+h5.wedding-loc{
+	font-weight:bold;
+}
+h3.wedding-sub-heading-kr{
+	background: #354f90;
+	color:white;
+	padding:10px 0px;
+	position: relative;
+	width: 107%;
+	left: -3.5%;
+	-webkit-box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 3px 25px 0px rgba(50, 50, 50, 0.75);
+	z-index
+}
+.wedding-corner-right{
+	width: 0; 
+	height: 0; 
+	border-top: 0px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid #213158;
+	float:left;
+	position:relative;
+	top:-10px;
+	left:-30px;
+}
+.wedding-corner-left{
+	width: 0; 
+	height: 0; 
+	border-top: 0px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #213158;
+	float:right;
+	position:relative;
+	top:-10px;
+	right:-30px;
+}
+.wedding-party-block{
+	margin-top: 20px;
+}
+.wedding-party-block img{
+	width: 150px;
+}
+.wedding-party-block p{
+	font-style:italic;
+}
+.featurette-heading.sub-heading-kr{
+	font-size:72px;
+	font-family: "coneria";
+	color:#359;
+	text-shadow:
+   -1px -1px 0 antiquewhite,  
+    1px -1px 0 antiquewhite,
+    -1px 1px 0 antiquewhite,
+     1px 1px 0 antiquewhite;
+	line-height: 1.7;
+	margin: 0px;
+	position: relative;
+	z-index: 30000;
+	display: inline-block;
+}
+.featurette-heading.sub-heading-kr.md{
+	font-size: 52px;
+	z-index: 0;
+}
+
+/* Navigation */
+.navbar-default.navbar-default-kr{
+	background: white;
+	-webkit-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 9px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 9px 0px rgba(50, 50, 50, 0.75);
+}
+.navbar-default .navbar-nav.navbar-nav-kr > .active > a{
+	color: #354f90;
+	background-color: transparent;
+}
+
+/* Fixed Heart on the Navbar */
+.fa-heart-kr{
+	position: relative;
+	color: antiquewhite;
+	font-size: 150px;
+	text-shadow: 0px 3px 2px rgba(150, 150, 150, 1);	
+}
+.fa-heart-inside-kr{
+	position: absolute;
+	top: 5%;
+	color: rgba(255,255,255,1);
+	font-size: 130px;
+	left: 7%;
+}
+.our-heart-kr{
+	position: absolute;
+    
+	top: -5px;
+	left: 45%;
+}
+.navbar-brand-kr{
+	position: absolute;
+    top: 25%;
+	left: 28%;
+	text-align: center;
+	font-family: "coneria";
+	font-size: 1.5em;
+}
+
+/* Changing the Carousel Height */
+.carousel .item.item-kr, .carousel.carousel-kr{
+	margin-bottom: 0px;
+}
+.carousel.carousel-top-kr{
+	/* height: 800px; */
+	/* margin-bottom: 60px; */
+}
+/* Photos */
+.photos-kr{
+	padding:10px;
+	display: inline-block;
+}
+.photos-kr img{
+	width: 858px;
+}
+.js-fa-angle-right-kr{
+	margin-left:20px;
+}
+.js-fa-angle-left-kr{
+	margin-right:20px;
+}
+
+/* Registry */
+ul.registry-kr{
+	padding:0;
+}
+ul.registry-kr li{
+	list-style-type: none;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+ul.registry-kr li img{
+	max-width: 300px;
+	max-height: 100px;
+}
+/* Facebook comments */
+.fb-comments.fb-comments-kr{
+	display:block;
+}
+.push-down {
+	margin-top: 30px;
+}
