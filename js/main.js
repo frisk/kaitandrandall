@@ -37,7 +37,7 @@ $(function(){
                 if(!heartVisible) {
                     break;
                 } else {
-                    heartText.fadeOut('fast');
+                    heartText.hide();
                     heartVisible = false;
                     c = i;
                     break;
@@ -45,7 +45,7 @@ $(function(){
             } else if(colliders[c] && (b1 >= colliders[c].top && y1 <= colliders[c].bottom)){
                 continue;   
             } else if(!heartVisible){
-                heartText.fadeIn('fast');
+                heartText.show();
                 heartVisible = true;
             }
         }
