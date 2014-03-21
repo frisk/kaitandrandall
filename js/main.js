@@ -1,8 +1,17 @@
-$(function(){
+$(document).ready(function(){
     var colliders = [],
     heartVisible = true,
     c,
     heartText = $('#kait-randall');
+    
+    $(".scroll").click(function(event){		
+		event.preventDefault();
+		$('li.active').removeClass('active');
+		$(this).parent().addClass('active');
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, function(){
+			$('#kait-randall').hide();	
+		});
+	});
     
     $('.registry').on('click', function(e){
         e.preventDefault();
