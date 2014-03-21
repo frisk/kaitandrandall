@@ -24,7 +24,7 @@ $(function(){
         var main_heart = $('.main-heart-js'),
             y1,
             h1,
-            b1,
+            b1;
         
         y1 = main_heart.offset().top;
         h1 = main_heart.outerHeight(true);
@@ -34,6 +34,7 @@ $(function(){
         
         for(var i = 0; i < colliders.length; i++){
             if(b1 >= colliders[i].top && y1 <= colliders[i].bottom) {
+                console.log('first');
                 if(!heartVisible) {
                     break;
                 } else {
@@ -43,8 +44,14 @@ $(function(){
                     break;
                 }
             } else if(colliders[c] && (b1 >= colliders[c].top && y1 <= colliders[c].bottom)){
-                continue;   
+                console.log('second');
+                if(heartVisible) {
+                    heartText.hide();
+                    heartVisible = false;
+                }
+                break;   
             } else if(!heartVisible){
+                console.log('third');
                 heartText.show();
                 heartVisible = true;
             }
