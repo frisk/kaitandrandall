@@ -43,7 +43,6 @@ $(document).ready(function(){
         
         for(var i = 0; i < colliders.length; i++){
             if(b1 >= colliders[i].top && y1 <= colliders[i].bottom) {
-                console.log('first');
                 if(!heartVisible) {
                     break;
                 } else {
@@ -53,14 +52,12 @@ $(document).ready(function(){
                     break;
                 }
             } else if(colliders[c] && (b1 >= colliders[c].top && y1 <= colliders[c].bottom)){
-                console.log('second');
                 if(heartVisible) {
                     heartText.hide();
                     heartVisible = false;
                 }
                 break;   
             } else if(!heartVisible){
-                console.log('third');
                 heartText.show();
                 heartVisible = true;
             }
