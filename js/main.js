@@ -10,7 +10,7 @@ $(window).load(function(){
 		$('li.active').removeClass('active');
 		$(this).parent().addClass('active');
 		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, function(){
-			$('#kait-randall').hide();	
+			$('#kait-randall').fadeOut('fast');	
 		});
 	});
     
@@ -45,19 +45,19 @@ $(window).load(function(){
                 if(!heartVisible) {
                     break;
                 } else {
-                    heartText.hide();
+                    heartText.fadeOut('fast');
                     heartVisible = false;
                     c = i;
                     break;
                 }
             } else if(colliders[c] && (b1 >= colliders[c].top && y1 <= colliders[c].bottom)){
                 if(heartVisible) {
-                    heartText.hide();
+                    heartText.fadeOut('fast');
                     heartVisible = false;
                 }
                 break;   
             } else if(!heartVisible){
-                heartText.show();
+                heartText.fadeIn('fast');
                 heartVisible = true;
             }
         }
