@@ -41,6 +41,13 @@
 	font-family: Times;
 	font-size: 12pt;
 }
+.love-box-kr p.list-group-item-text{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+h4.list-group-item-heading{
+	font-size: 14px;
+}
 .intros-kr em{
 	font-family: Times;
 }
